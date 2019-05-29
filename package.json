@@ -1,6 +1,6 @@
 {
   "name": "dice-app",
-  "homepage": "http://www.tylermaxwell.co/dice-app/"
+  "homepage": "http://www.tylermaxwell.co/dice-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,8 +12,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build", 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
