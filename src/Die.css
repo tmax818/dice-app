@@ -1,0 +1,28 @@
+.Die {
+  font-size: 10em;
+  padding: 0.25em;
+  color: red;
+}
+
+.Rolling {
+  animation-name: shake;
+  animation-duration: 1s;
+}
+
+@keyframes shake {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  20% {
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -300deg);
+  }
+
+  30% {
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 720deg);
+  }
+
+  60% {
+    transform: translate3d(40%, 0, 0) rotate3d(0, 0, 1, -220deg);
+  }
+}
